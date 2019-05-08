@@ -1,0 +1,59 @@
+.container {
+ 
+   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    
+
+
+}
+ 
+.container {
+    width: 300px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px 0 200px;
+}
+ 
+#one {
+    display: block;  
+    position: absolute;
+    width: 300px;
+    height: 375px;
+    transition: top 2s linear;
+
+}
+
+
+
+#two {
+    display: block;
+    position: absolute;
+    top: 375px;
+    width: 300px;
+    height: 375px;
+    transition: top 2s linear;
+
+}
+
+#three {
+    display: block;  
+    position: absolute;
+    top: 650px;
+    width: 300px;
+    height: 375px;
+    transition: top 2s linear;
+
+}
+
+#four {
+    display: block;    
+    position: absolute;
+    top: 1025px;
+    width: 300px;
+    height: 375px;
+    transition: top 2s linear;
+
+}
